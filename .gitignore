@@ -2,4 +2,6 @@
 logs
 *.log
 .vscode
+
 lib
+devices.json
