@@ -15,7 +15,8 @@
 
 ## Usage
 
-`govee {deviceName}` - Select device to interact with.
+- `govee fetch` - Fetch Govee devices and update local cache. 
+- `govee {deviceName}` - Select device to interact with. If device is missing, run `govee fetch`.
 
 ## Variables
 
