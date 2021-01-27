@@ -47,6 +47,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D8BB75BA-0DC6-461E-9017-6673636C5D6E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DDE7B384-C312-4383-B5DA-A354888051D7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F0D6A4AC-0D8B-4E50-A69C-4892FBA3D88A</key>
 		<array>
 			<dict>
@@ -121,29 +134,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./power.py $1</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DB53158C-42EF-410E-98BE-24E3134AF522</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -169,7 +159,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./list-devices.py</string>
+				<string>./devices.py</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -189,6 +179,29 @@
 			<string>BF5A4DA2-5EA8-4EFF-B83F-5620D3FCB217</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./power.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DB53158C-42EF-410E-98BE-24E3134AF522</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -231,6 +244,50 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./devices.py --fetch</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DDE7B384-C312-4383-B5DA-A354888051D7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>govee fetch</string>
+				<key>subtext</key>
+				<string>Fetch devices and update cache</string>
+				<key>text</key>
+				<string>Govee Fetch</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D8BB75BA-0DC6-461E-9017-6673636C5D6E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -257,12 +314,26 @@
 			<key>ypos</key>
 			<integer>65</integer>
 		</dict>
+		<key>D8BB75BA-0DC6-461E-9017-6673636C5D6E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>245</integer>
+		</dict>
 		<key>DB53158C-42EF-410E-98BE-24E3134AF522</key>
 		<dict>
 			<key>xpos</key>
 			<integer>535</integer>
 			<key>ypos</key>
 			<integer>65</integer>
+		</dict>
+		<key>DDE7B384-C312-4383-B5DA-A354888051D7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>245</integer>
 		</dict>
 		<key>F0D6A4AC-0D8B-4E50-A69C-4892FBA3D88A</key>
 		<dict>
