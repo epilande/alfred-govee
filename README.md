@@ -36,6 +36,7 @@
 - 🗝 [alfred-password-generator](https://github.com/epilande/alfred-password-generator) - Workflow to generate passwords.
 - 🎨 [alfred-prettier-clipboard](https://github.com/epilande/alfred-prettier-clipboard) - Format code in your clipboard with Prettier.
 - 🖊 [alfred-markdown](https://github.com/epilande/alfred-markdown) - Markdown text expander.
+- 💬 [alfred-words](https://github.com/epilande/alfred-words) - Find synonyms and antonyms from thesaurus.com.
 
 ## License
 
