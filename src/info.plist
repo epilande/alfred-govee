@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DB53158C-42EF-410E-98BE-24E3134AF522</string>
+				<string>66A448F9-12D9-485D-A0FC-C6FE967FDF49</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -199,7 +199,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>DB53158C-42EF-410E-98BE-24E3134AF522</string>
+			<string>66A448F9-12D9-485D-A0FC-C6FE967FDF49</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -307,6 +307,13 @@
 			<key>ypos</key>
 			<integer>65</integer>
 		</dict>
+		<key>66A448F9-12D9-485D-A0FC-C6FE967FDF49</key>
+		<dict>
+			<key>xpos</key>
+			<integer>540</integer>
+			<key>ypos</key>
+			<integer>65</integer>
+		</dict>
 		<key>BF5A4DA2-5EA8-4EFF-B83F-5620D3FCB217</key>
 		<dict>
 			<key>xpos</key>
@@ -320,13 +327,6 @@
 			<integer>70</integer>
 			<key>ypos</key>
 			<integer>245</integer>
-		</dict>
-		<key>DB53158C-42EF-410E-98BE-24E3134AF522</key>
-		<dict>
-			<key>xpos</key>
-			<integer>535</integer>
-			<key>ypos</key>
-			<integer>65</integer>
 		</dict>
 		<key>DDE7B384-C312-4383-B5DA-A354888051D7</key>
 		<dict>

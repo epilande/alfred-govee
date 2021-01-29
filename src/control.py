@@ -13,13 +13,15 @@ MODEL = os.environ["MODEL"]
 
 DEBUG = False
 
-power = sys.argv[1] if len(sys.argv) > 1 else "on"
+cmdName = sys.argv[1] if len(sys.argv) > 1 else "turn"
+cmdValue = sys.argv[2] if len(sys.argv) > 2 else "on"
+
 data = {
     "device": DEVICE,
     "model": MODEL,
     "cmd": {
-        "name": "turn",
-        "value": power
+        "name": cmdName,
+        "value": int(cmdValue) if cmdName == 'brightness' else cmdValue
     }
 }
 
@@ -34,7 +36,5 @@ response = requests.put(
 
 
 if DEBUG:
-    print(DEVICE)
-    print(MODEL)
-    print(power)
-    print(json.dumps(response.json(), indent=4))
+    print(data)
+    print(response.json())
