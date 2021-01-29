@@ -325,7 +325,11 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>GitHub Repo: https://github.com/epilande/alfred-govee
+
+Usage:
+- `govee fetch` - Fetch Govee devices and update local cache.
+- `govee {deviceName}` - Select device to interact with. If device is missing, run `govee fetch`.</string>
 	<key>uidata</key>
 	<dict>
 		<key>33178759-D2B8-4858-BFEC-D07EF51232B6</key>
@@ -395,7 +399,7 @@
 		<string>API_KEY</string>
 	</array>
 	<key>version</key>
-	<string></string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/epilande/alfred-govee</string>
 </dict>
