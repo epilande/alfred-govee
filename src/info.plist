@@ -60,6 +60,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DDE7B384-C312-4383-B5DA-A354888051D7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>82BA95AA-399C-4516-95D0-C560F61B79E2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F0D6A4AC-0D8B-4E50-A69C-4892FBA3D88A</key>
 		<array>
 			<dict>
@@ -247,6 +260,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Local cache has been updated</string>
+				<key>title</key>
+				<string>Govee fetch complete!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>82BA95AA-399C-4516-95D0-C560F61B79E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -313,6 +347,13 @@
 			<integer>540</integer>
 			<key>ypos</key>
 			<integer>65</integer>
+		</dict>
+		<key>82BA95AA-399C-4516-95D0-C560F61B79E2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>245</integer>
 		</dict>
 		<key>BF5A4DA2-5EA8-4EFF-B83F-5620D3FCB217</key>
 		<dict>
