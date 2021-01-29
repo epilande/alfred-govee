@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Workflow to interact with your Govee devices</strong></br>
-  <img src="./demo.png" width="530">
+  <img src="./assets/demo.png" width="530">
 </p>
 
 ## Installation
@@ -15,8 +15,12 @@
 
 ## Usage
 
-- `govee fetch` - Fetch Govee devices and update local cache. 
+- `govee fetch` - Fetch Govee devices and update local cache.
 - `govee {deviceName}` - Select device to interact with. If device is missing, run `govee fetch`.
+
+After selecting a device, you will be prompted with 3 options:
+
+<img src="./assets/demo2.png" width="600">
 
 ## Variables
 
@@ -26,7 +30,7 @@
 
 ## Demo
 
-<img src="./demo.gif" width="600">
+<img src="./assets/demo.gif" width="600">
 
 ## More workflows
 
