@@ -123,7 +123,8 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./options.py "$1"</string>
+				<string>[[ -n "${API_KEY}" ]] &amp;&amp; ./options.py "$1"
+</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -263,7 +264,7 @@
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
-				<false/>
+				<true/>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
@@ -286,7 +287,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./devices.py --fetch</string>
+				<string>[[ -n "${API_KEY}" ]] &amp;&amp; ./devices.py --fetch &amp;&amp; echo "Success!"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -330,21 +331,21 @@
 		<key>33178759-D2B8-4858-BFEC-D07EF51232B6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>295</integer>
 			<key>ypos</key>
 			<integer>95</integer>
 		</dict>
 		<key>3B139B5B-45CF-4361-8663-A92663E7D8CA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>370</integer>
 			<key>ypos</key>
 			<integer>65</integer>
 		</dict>
 		<key>66A448F9-12D9-485D-A0FC-C6FE967FDF49</key>
 		<dict>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>545</integer>
 			<key>ypos</key>
 			<integer>65</integer>
 		</dict>

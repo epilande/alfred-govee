@@ -14,7 +14,7 @@ parser.add_argument('--fetch', default=False, action='store_true')
 args = parser.parse_args()
 shouldFetch = args.fetch
 
-API_KEY = os.environ["API_KEY"]
+API_KEY = os.getenv('API_KEY')
 DEBUG = False
 
 
@@ -59,7 +59,12 @@ def listDevices():
 
 
 if __name__ == '__main__':
-    if (shouldFetch == True):
-        fetchDevices()
+    if (API_KEY):
+        if (shouldFetch == True):
+            fetchDevices()
+        else:
+            listDevices()
     else:
-        listDevices()
+        print(json.dumps({'items': [{
+            "title": "Govee `API_KEY` is required",
+        }]}))
